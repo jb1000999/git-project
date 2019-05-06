@@ -9,7 +9,7 @@ def guessing_game():
         guess = input()
         
         if guess == '42':
-            print('You guessed it')
+            print('The answer was correct')
             return False
         else:
             print(f"No, {guess} isn't the answer, please try again\n")
